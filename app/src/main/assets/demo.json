@@ -1,0 +1,88 @@
+{
+  "tracks": {
+    "href": "https://api.spotify.com/v1/search?query=name%3Acalm&type=track&market=from_token&offset=0&limit=1",
+    "items": [
+      {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0HEiEPiSKxArWh0dELcyuF"
+              },
+              "href": "https://api.spotify.com/v1/artists/0HEiEPiSKxArWh0dELcyuF",
+              "id": "0HEiEPiSKxArWh0dELcyuF",
+              "name": "Satkirin Kaur Khalsa",
+              "type": "artist",
+              "uri": "spotify:artist:0HEiEPiSKxArWh0dELcyuF"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/5k5QZsxWp66lmgfsqrTeVI"
+          },
+          "href": "https://api.spotify.com/v1/albums/5k5QZsxWp66lmgfsqrTeVI",
+          "id": "5k5QZsxWp66lmgfsqrTeVI",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273e125a7968168f986a96c3b6b",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02e125a7968168f986a96c3b6b",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851e125a7968168f986a96c3b6b",
+              "width": 64
+            }
+          ],
+          "name": "Lightness of Being",
+          "release_date": "2005-01-01",
+          "release_date_precision": "day",
+          "total_tracks": 7,
+          "type": "album",
+          "uri": "spotify:album:5k5QZsxWp66lmgfsqrTeVI"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0HEiEPiSKxArWh0dELcyuF"
+            },
+            "href": "https://api.spotify.com/v1/artists/0HEiEPiSKxArWh0dELcyuF",
+            "id": "0HEiEPiSKxArWh0dELcyuF",
+            "name": "Satkirin Kaur Khalsa",
+            "type": "artist",
+            "uri": "spotify:artist:0HEiEPiSKxArWh0dELcyuF"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 444773,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "uscgh0695509"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2CiFH3RmuaODRjqWioZVJq"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2CiFH3RmuaODRjqWioZVJq",
+        "id": "2CiFH3RmuaODRjqWioZVJq",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Dedication-Center & Calm the Mind-Aad Guray Nameh",
+        "popularity": 26,
+        "preview_url": "https://p.scdn.co/mp3-preview/7d9b1faeab1235c72dbd515c326d8323aa1f3e12?cid=cc5b6c5ad0af472fb2365892be729650",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:2CiFH3RmuaODRjqWioZVJq"
+      }
+    ],
+    "limit": 1,
+    "next": "https://api.spotify.com/v1/search?query=name%3Acalm&type=track&market=from_token&offset=1&limit=1",
+    "offset": 0,
+    "previous": null,
+    "total": 285
+  }
+}
