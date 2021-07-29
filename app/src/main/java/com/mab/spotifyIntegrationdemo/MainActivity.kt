@@ -7,9 +7,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.mab.spotifyIntegrationdemo.network.SpotifyCalls
 import com.spotify.android.appremote.api.ConnectionParams
 import com.spotify.android.appremote.api.SpotifyAppRemote
-import com.spotify.sdk.android.authentication.AuthenticationClient
-import com.spotify.sdk.android.authentication.AuthenticationRequest
-import com.spotify.sdk.android.authentication.AuthenticationResponse
 import kaaes.spotify.webapi.android.SpotifyApi
 import kaaes.spotify.webapi.android.models.Album
 import kaaes.spotify.webapi.android.models.TracksPager
@@ -50,7 +47,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setListener() {
-        auth_button.setOnClickListener {
+       /* auth_button.setOnClickListener {
             requestAuth()
         }
 
@@ -60,9 +57,9 @@ class MainActivity : AppCompatActivity() {
 
         refresh_button.setOnClickListener {
             refreshAccessCode()
-        }
+        }*/
     }
-
+/*
     private fun requestAuth() {
         val REQUEST_CODE = 1337
 
@@ -177,5 +174,5 @@ class MainActivity : AppCompatActivity() {
                 Log.e(TAG, "Error code : $it")
             }
         )
-    }
+    }*/
 }

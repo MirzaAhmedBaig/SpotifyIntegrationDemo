@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">SpotifyIntegrationDemo</string>
-    <string name="SPOTIFY_CLIENT_ID">cc5b6c5ad0af472fb2365892be729650</string>
-    <string name="SPOTIFY_REDIRECT_URI">spotifyintegrationdemo://callback</string>
+    <string name="SPOTIFY_CLIENT_ID">bc58a83c8aa84d99a9e2f41b684ae9b3</string>
+    <string name="SPOTIFY_REDIRECT_URI">http://org.avantari.dhyana/callback</string>
 </resources>
